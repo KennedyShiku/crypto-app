@@ -1,9 +1,10 @@
 import './App.css';
+import HomePage from './components/Homepage';
 
 function App() {
   return (
     <div className="App">
-      <h1>Crypto</h1>
+      <HomePage />
     </div>
   );
 }
