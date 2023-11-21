@@ -1,11 +1,15 @@
-import './App.css';
+import React from 'react';
 import HomePage from './components/Homepage';
-
+import Navbar from './components/Navbar';
 function App() {
   return (
-    <div className="App">
+    
+      <React.Fragment>
       <HomePage />
-    </div>
+      <Navbar />
+      </React.Fragment>
+     
+    
   );
 }
 
